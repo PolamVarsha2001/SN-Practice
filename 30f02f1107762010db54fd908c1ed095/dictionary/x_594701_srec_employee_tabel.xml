@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Tabel" max_length="40" name="x_594701_srec_employee_tabel" sizeclass="1" type="collection">
+        <element label="faculty id" max_length="40" name="faculty_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="faculty name" max_length="40" name="faculty_name" type="string"/>
+        <element label="mobile number" max_length="40" name="mobile_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
